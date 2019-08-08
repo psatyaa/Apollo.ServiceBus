@@ -1,4 +1,4 @@
-# Apollo.ServiceBus
+# ServiceBus and Jobs in Azure with C#
 Azure Service Bus with Queue and consumer project.
 
 This project uses Azure Service Bus - Queue to send messages. You need to run ServiceBus.Sender Project(Setup as Startup project) to send messages to Queue on Azure.
