@@ -236,11 +236,5 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WorkerRoleWithSBQueue1\WorkerRoleWithSBQueue1.csproj">
-      <Project>{e14199d7-61b5-4778-95d0-0479817fe0e0}</Project>
-      <Name>WorkerRoleWithSBQueue1</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
