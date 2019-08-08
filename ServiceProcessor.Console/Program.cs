@@ -10,8 +10,10 @@ namespace ServiceProcessor.Console
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://vitsfarm.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=5NUmPXjxmgDyjbDRr3QcA/e3SMCtYyd3IlWb60opDxI=";
-        const string QueueName = "apolloqueue";
+        //TODO: Pass Sericve Bus Connectionstring URL
+        const string ServiceBusConnectionString = "Service Bus ConnectionString";
+        //Pass Quuue Name. otherwise will create QueueName as queue.
+        const string QueueName = "QueueName";
         static IQueueClient queueClient;
         static void Main(string[] args)
         {
