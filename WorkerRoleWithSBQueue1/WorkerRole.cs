@@ -28,6 +28,8 @@ namespace WorkerRoleWithSBQueue1
 
             // Initiates the message pump and callback is invoked for each message that is received, calling close on the client will stop the pump.
             Client.OnMessage(receivedMessage => ProcessMessage(receivedMessage));
+
+            //Invoke 
         }
 
         private void ProcessMessage(BrokeredMessage receivedMessage)

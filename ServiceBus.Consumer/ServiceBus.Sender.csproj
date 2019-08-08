@@ -237,10 +237,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServiceBus.Model\ServiceBus.Model.csproj">
-      <Project>{8eeb1d07-7014-4240-9166-f54ecd2a23da}</Project>
-      <Name>ServiceBus.Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WorkerRoleWithSBQueue1\WorkerRoleWithSBQueue1.csproj">
       <Project>{e14199d7-61b5-4778-95d0-0479817fe0e0}</Project>
       <Name>WorkerRoleWithSBQueue1</Name>
